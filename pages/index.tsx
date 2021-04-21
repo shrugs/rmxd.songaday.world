@@ -27,14 +27,22 @@ function Index() {
           <Text fontSize="xs">Remixes by Eclectic Method</Text>
           <Text fontSize="xs">Album cover by Daim Aggott-Hönsch</Text>
         </VStack>
-        <VStack pl={{ base: 0, sm: 4 }} pt={{ base: 4, sm: 0 }} align="start" spacing={3}>
+        <VStack
+          pl={{ base: 0, sm: 4 }}
+          pt={{ base: 4, sm: 0 }}
+          align="start"
+          spacing={{ base: 3, lg: 4 }}
+        >
           <Text lineHeight="shorter">
             <ChakraLink href="https://twitter.com/songadaymann" isExternal>
               Jonathan Mann
             </ChakraLink>{' '}
             has been writing a Song A Day for 4,500 days. On 3.15.21 he sold the first 365 on
-            OpenSea. Just over a week later, seventy Song A Day holders sent their 1/1 NFT to the
-            RMXD wallet address.
+            OpenSea. Just over a week later, seventy Song A Day holders sent their 1/1 NFT to the{' '}
+            <ChakraLink href="https://opensea.io/accounts/RMXD" variant="underlined" isExternal>
+              RMXD wallet address
+            </ChakraLink>
+            .
           </Text>
           <Text lineHeight="shorter">
             10 of those songs were chosen at random to be remixed by{' '}
