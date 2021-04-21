@@ -17,6 +17,7 @@
     "@chakra-ui/react": "^1.4.2",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@react-hook/size": "^2.1.1",
     "@rooks/use-localstorage": "^4.11.0",
     "@walletconnect/web3-provider": "^1.4.1",
     "dotenv": "^8.2.0",

@@ -67,7 +67,7 @@ function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
             size="sm"
           >
             <Text as="span" fontFamily="mono">
-              See on Rarible
+              Collect on Rarible
             </Text>
           </Button>
           <Text color="gray.500" fontSize="xs">
@@ -126,7 +126,7 @@ function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
               isDisabled={!data}
               zIndex="1"
             >
-              See on OpenSea
+              View on OpenSea
             </Button>
           </HStack>
         )}
