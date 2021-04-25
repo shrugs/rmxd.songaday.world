@@ -116,7 +116,7 @@ export const RMXD_TOKENS: RMXD[] = [
     },
   },
   {
-    id: 'A',
+    id: '10',
     name: 'Dancing Fin',
     fromSongId: '331',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048717506904064001',
