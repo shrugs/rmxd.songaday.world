@@ -11,9 +11,6 @@ export function RenderNifty({ render, ...delegated }: ImageProps & { render: any
           poster={render.poster}
           objectFit="contain"
           objectPosition="center"
-          autoPlay
-          muted
-          loop
           controls
           controlsList="nodownload"
         >
