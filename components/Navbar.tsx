@@ -1,4 +1,5 @@
-import { Button, HStack, Img, Link, VStack } from '@chakra-ui/react';
+import { Button, Heading, HStack, Img, Link, VStack } from '@chakra-ui/react';
+import Head from 'next/head';
 import NextLink from 'next/link';
 import { useRouter } from 'next/router';
 import React from 'react';
@@ -27,8 +28,18 @@ function Navbar() {
     <VStack align="stretch" as="header" px="4" py="4" borderBottom="1px" borderColor="gray.200">
       <HStack justifyContent="space-between">
         <NextLink href="/" passHref>
-          <Link h={[12, 16, 20]}>
-            <Img h="full" cursor="pointer" src="/assets/logo.svg" alt="the Song a Day World logo" />
+          <Link>
+            <HStack>
+              <Img
+                h={[12, 16, 20]}
+                cursor="pointer"
+                src="/assets/logo.png"
+                alt="the Song a Day RMXD logo"
+              />
+              <Heading as="h1" fontSize="xl">
+                Song a Day: RMXD
+              </Heading>
+            </HStack>
           </Link>
         </NextLink>
         <HStack spacing="4">
