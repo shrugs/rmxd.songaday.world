@@ -2,9 +2,9 @@ import { keyBy } from 'lodash-es';
 
 import { RMXD } from './types';
 
-const _TOKENS: RMXD[] = [
+export const RMXD_TOKENS: RMXD[] = [
   {
-    id: '0x0',
+    id: '1',
     name: 'Geriatrics In Drag',
     fromSongId: '53',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048412942183170049',
@@ -18,7 +18,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x1',
+    id: '2',
     name: 'You Stole My Money',
     fromSongId: '175',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048547082601758721',
@@ -32,7 +32,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x2',
+    id: '3',
     name: 'If Your Love Is On Fire',
     fromSongId: '187',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048560276741292033',
@@ -46,7 +46,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x3',
+    id: '4',
     name: 'Running Through The Internet',
     fromSongId: '196',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048570172345942017',
@@ -60,7 +60,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x4',
+    id: '6',
     name: 'Two Chords',
     fromSongId: '209',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048583366485475329',
@@ -74,7 +74,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x5',
+    id: '7',
     name: 'I Wrote The Worst Jingle In The World',
     fromSongId: '220',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048595461113380865',
@@ -88,7 +88,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x6',
+    id: '8',
     name: 'First There Was No Chair',
     fromSongId: '257',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048636143043608577',
@@ -102,7 +102,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x7',
+    id: '9',
     name: 'Popcorn',
     fromSongId: '270',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048650436694769665',
@@ -116,7 +116,7 @@ const _TOKENS: RMXD[] = [
     },
   },
   {
-    id: '0x8',
+    id: 'A',
     name: 'Dancing Fin',
     fromSongId: '331',
     fromTokenId: '27853175353995272517766450193869818424107874020190547876689048717506904064001',
@@ -129,40 +129,23 @@ const _TOKENS: RMXD[] = [
       uri: 'https://foundation.app/reedandrader',
     },
   },
-  {
-    id: '0x9',
-    name: 'Best Day of My Life',
-    fromSongId: '332',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048718606415691777',
-    originalOwner: {
-      name: 'MisterPlus',
-      uri: 'https://opensea.io/accounts/MisterPlus',
-    },
-    credits: {
-      name: 'Daniel Fascanio',
-      uri: 'https://foundation.app/dfascanio',
-    },
-  },
-];
-
-export const RMXD_TOKENS: RMXD[] = [
-  {
-    id: '3',
-    name: 'Mark His Words',
-    fromSongId: '332',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048718606415691777',
-    originalOwner: {
-      name: 'MisterPlus',
-      uri: 'https://opensea.io/accounts/MisterPlus',
-    },
-    credits: {
-      name: 'Daniel Fascanio',
-      uri: 'https://foundation.app/dfascanio',
-    },
-  },
+  // {
+  //   id: '9',
+  //   name: 'Best Day of My Life',
+  //   fromSongId: '332',
+  //   fromTokenId: '27853175353995272517766450193869818424107874020190547876689048718606415691777',
+  //   originalOwner: {
+  //     name: 'MisterPlus',
+  //     uri: 'https://opensea.io/accounts/MisterPlus',
+  //   },
+  //   credits: {
+  //     name: 'Daniel Fascanio',
+  //     uri: 'https://foundation.app/dfascanio',
+  //   },
+  // },
 ];
 
 export const RMXD_TOKENS_BY_ID = keyBy(RMXD_TOKENS, 'id');
-export const RMXD_COLLECTION_ID = 'punks-mavericks-and-mishegas';
+export const RMXD_COLLECTION_ID = 'song-a-day-rmxd';
 export const OPENSEA_ASSET_CONTRACT = '0x495f947276749ce646f68ac8c248420045cb7b5e';
-export const RMXD_ASSET_CONTRACT = '0x4392ae0ba1e06cf8d0b7f098fec016dedd85b519'; // TODO: change
+export const RMXD_ASSET_CONTRACT = '0x2dea2f6f6c5e4210937d7903f0e5f990b2514da7';
