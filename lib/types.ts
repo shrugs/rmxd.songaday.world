@@ -12,7 +12,6 @@ export interface RMXD {
   id: string;
   name: string;
   fromSongId: string;
-  fromTokenId: string;
   originalOwner: Owner;
   credits: Credits;
 }

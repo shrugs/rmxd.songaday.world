@@ -38,7 +38,7 @@ function Index() {
               Jonathan Mann
             </ChakraLink>{' '}
             has been writing a Song A Day for 4,500 days. On 3.15.21 he sold the first 365 on
-            OpenSea. Just over a week later, seventy Song A Day holders sent their 1/1 NFT to the{' '}
+            OpenSea. Just over a week later, fifty Song A Day holders sent their 1/1 NFT to the{' '}
             <ChakraLink href="https://opensea.io/accounts/RMXD" variant="underlined" isExternal>
               RMXD wallet address
             </ChakraLink>

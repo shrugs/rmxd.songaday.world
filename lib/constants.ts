@@ -7,7 +7,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '1',
     name: 'Geriatrics In Drag',
     fromSongId: '53',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048412942183170049',
     originalOwner: {
       name: 'Mintsaux',
       uri: 'https://opensea.io/accounts/Mintsaux',
@@ -21,7 +20,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '2',
     name: 'You Stole My Money',
     fromSongId: '175',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048547082601758721',
     originalOwner: {
       name: 'Cultofmantis',
       uri: 'https://opensea.io/accounts/Cultofmantis',
@@ -35,7 +33,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '3',
     name: 'If Your Love Is On Fire',
     fromSongId: '187',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048560276741292033',
     originalOwner: {
       name: 'CPyrc',
       uri: 'https://opensea.io/accounts/CPyrc',
@@ -49,7 +46,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '4',
     name: 'Running Through The Internet',
     fromSongId: '196',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048570172345942017',
     originalOwner: {
       name: 'CPyrc',
       uri: 'https://opensea.io/accounts/CPyrc',
@@ -63,7 +59,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '6',
     name: 'Two Chords',
     fromSongId: '209',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048583366485475329',
     originalOwner: {
       name: 'DJFATHEAD',
       uri: 'https://opensea.io/accounts/DJFATHEAD',
@@ -77,7 +72,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '7',
     name: 'I Wrote The Worst Jingle In The World',
     fromSongId: '220',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048595461113380865',
     originalOwner: {
       name: 'DojiFlip',
       uri: 'https://opensea.io/accounts/DojiFlip',
@@ -91,7 +85,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '8',
     name: 'First There Was No Chair',
     fromSongId: '257',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048636143043608577',
     originalOwner: {
       name: 'Davidfund88',
       uri: 'https://opensea.io/accounts/Davidfund88',
@@ -105,7 +98,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '9',
     name: 'Popcorn',
     fromSongId: '270',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048650436694769665',
     originalOwner: {
       name: 'DJFATHEAD',
       uri: 'https://opensea.io/accounts/DJFATHEAD',
@@ -119,7 +111,6 @@ export const RMXD_TOKENS: RMXD[] = [
     id: '10',
     name: 'Dancing Fin',
     fromSongId: '331',
-    fromTokenId: '27853175353995272517766450193869818424107874020190547876689048717506904064001',
     originalOwner: {
       name: 'nftartcards',
       uri: 'https://opensea.io/accounts/nftartcards',
@@ -129,20 +120,19 @@ export const RMXD_TOKENS: RMXD[] = [
       uri: 'https://foundation.app/reedandrader',
     },
   },
-  // {
-  //   id: '9',
-  //   name: 'Best Day of My Life',
-  //   fromSongId: '332',
-  //   fromTokenId: '27853175353995272517766450193869818424107874020190547876689048718606415691777',
-  //   originalOwner: {
-  //     name: 'MisterPlus',
-  //     uri: 'https://opensea.io/accounts/MisterPlus',
-  //   },
-  //   credits: {
-  //     name: 'Daniel Fascanio',
-  //     uri: 'https://foundation.app/dfascanio',
-  //   },
-  // },
+  {
+    id: '11',
+    name: 'The Best Day of My Life',
+    fromSongId: '332',
+    originalOwner: {
+      name: 'MisterPlus',
+      uri: 'https://opensea.io/accounts/MisterPlus',
+    },
+    credits: {
+      name: 'Daniel Fascanio',
+      uri: 'https://foundation.app/dfascanio',
+    },
+  },
 ];
 
 export const RMXD_TOKENS_BY_ID = keyBy(RMXD_TOKENS, 'id');
