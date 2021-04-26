@@ -71,7 +71,7 @@ function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
             </Text>
           </Button>
           <Text color="gray.500" fontSize="xs">
-            005 / 100 available
+            only 100 editions available
           </Text>
         </VStack>
       </HStack>

@@ -13,14 +13,14 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <NextSeo
         title="RMXD, by Song a Day"
-        description="Hello! I'm Jonathan Mann! I've been writing, producing and sharing a Song A Day for 12 years. Now I'm making each one available as a unique NFT for the first time."
+        description="Jonathan Mann has been writing a Song A Day for 4,500 days. On 3.15.21 he sold the first 365 on OpenSea. Just over a week later, fifty Song A Day holders sent their 1/1 NFT to the RMXD wallet address. 10 of those songs were chosen at random to be remixed by Eclectic Method. The holders whose songs were chosen get 40% of all sales of the remix that came from their song, and only 100 copies of each animated remix exist."
         twitter={{
           cardType: 'summary_large_image',
           handle: '@songadaymann',
           site: 'RMXD',
         }}
         openGraph={{
-          images: [{ url: 'https://songaday.world/generated/1.png' }],
+          images: [{ url: 'https://rmxd.songaday.world/meta.png' }],
         }}
       />
       <Head>

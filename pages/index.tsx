@@ -3,6 +3,7 @@ import {
   Box,
   Flex,
   Heading,
+  Image,
   Link as ChakraLink,
   Text,
   VStack,
@@ -18,7 +19,7 @@ function Index() {
         <VStack spacing={2}>
           <Box w={{ base: 'full', sm: '64' }}>
             <AspectRatio ratio={1}>
-              <Box h="full" w="full" bg="gray.200" />
+              <Image h="full" w="full" src="/assets/cover.png" alt="RMXD album cover" />
             </AspectRatio>
           </Box>
           <Heading as="h1" fontSize="sm">
