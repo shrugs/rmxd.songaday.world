@@ -61,7 +61,7 @@ function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
         <VStack spacing={1} justify="center" align="end">
           <Button
             as="a"
-            href={`https://rarible.com/token/${RMXD_ASSET_CONTRACT}:${token?.id}`}
+            href={`https://rarible.com/token/${RMXD_ASSET_CONTRACT}:${token?.id}:0x5ecdfc78142e2cc4afdfef01229a0344e55b18fb`}
             target="_blank"
             rel="noopener noreferrer"
             isLoading={!token}
