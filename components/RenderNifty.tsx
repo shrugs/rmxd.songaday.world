@@ -3,12 +3,17 @@ import { chakra } from '@chakra-ui/system';
 const Video = chakra('video');
 
 // TODO: get typings from use.nifti.es
-export function RenderNifty({ render, ...delegated }: ImageProps & { render: any }) {
+export function RenderNifty({
+  poster,
+  render,
+  ...delegated
+}: ImageProps & { poster: string; render: any }) {
+  // we render a local poster because ipfs is slow as fuck
   switch (render.type) {
     case 'video': {
       return (
         <Video
-          poster={render.poster}
+          poster={poster}
           objectFit="contain"
           objectPosition="center"
           controls

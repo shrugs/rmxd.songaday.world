@@ -18,6 +18,8 @@ import { useNifty } from '../lib/useNifty';
 import { OwnershipButton } from './OwnershipButton';
 import { RenderNifty } from './RenderNifty';
 
+const posterUrl = (tokenId: string) => `/posters/${tokenId}.jpeg`;
+
 function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
   const { data, loading, isHydrating, error, openSeaUri } = useNifty(
     RMXD_ASSET_CONTRACT,
@@ -77,7 +79,11 @@ function TokenCard({ token, ...delegated }: BoxProps & { token: RMXD }) {
       </HStack>
 
       <AspectRatio ratio={16 / 9}>
-        {data ? <RenderNifty render={data.render} /> : <Skeleton h="full" w="full" />}
+        {data ? (
+          <RenderNifty poster={posterUrl(token.id)} render={data.render} />
+        ) : (
+          <Skeleton h="full" w="full" />
+        )}
       </AspectRatio>
 
       <VStack flex="1" p={2} spacing={4} align="stretch">

@@ -90,7 +90,7 @@ export const RMXD_TOKENS: RMXD[] = [
       uri: 'https://opensea.io/accounts/Davidfund88',
     },
     credits: {
-      name: 'Miguel Gares',
+      name: 'Miguelgarest',
       uri: 'https://foundation.app/miguelgarest',
     },
   },
